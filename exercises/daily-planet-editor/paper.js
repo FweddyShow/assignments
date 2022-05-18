@@ -9,24 +9,21 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemyName=["Lex","Batman","Darkside","Brainiac","General Zod","Doomsday"];
 
-funtion Who_Wins(is-there-kryptonite,enemy_name)
+function Who_Wins( is_there_kryptonite ,enemyName)
 {
-if (!is-there-kryptonite)
-{
+    if (!is_there_kryptonite) {
     return "Superman beats " +enemyName+ ", of course";
-}
-
-else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
-}
+    } else {
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
     }
+}
 
-for (var i=0;i<enemies.length;i++)
+for (var i = 0;i <enemies.length; i++)
 {
-    var is_there_kryptonite:
-    if (i%2=== 0) {
+    var is_there_kryptonite;
+    if (i% 2 === 0) {
         is_there_kryptonite = true;
     } else {
         is_there_kryptonite = false;
@@ -43,7 +40,7 @@ function HowAttractedIsLoisLaneToMe ()
 consol.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
-var superman false;
+var superman =false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
