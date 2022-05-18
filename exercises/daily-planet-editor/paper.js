@@ -20,7 +20,7 @@ function Who_Wins( is_there_kryptonite ,enemyName)
     }
 }
 
-for (var i = 0;i <enemies.length; i++)
+for (var i = 0;i <enemyName.length; i++)
 {
     var is_there_kryptonite;
     if (i% 2 === 0) {
@@ -28,16 +28,16 @@ for (var i = 0;i <enemies.length; i++)
     } else {
         is_there_kryptonite = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
+    console.log(Who_Wins(is_there_kryptonite,enemyName[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
 {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+console.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
 var superman =false;
