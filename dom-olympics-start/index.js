@@ -20,4 +20,5 @@ const clicked = document.getElementById('clear-button');
 clicked.addEventListener('click', function() {;
     for(let i = 0; i < messages.length; i++) {;
         messages[i].textContent = "";
+        console.log()
     }});
