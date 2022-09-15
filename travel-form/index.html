@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name = "travel">
+        <input type="text" name="firstName" placeholder="First Name" required>
+        <input type="text" name="lastName"  placeholder="Last Name" required>
+        <input type="number" name="age" placeholder="Age" required>
+        <div>Gender</div>
+       Male: <input type="radio" name="gender" value="Male">
+       Female: <input type="radio" name="gender" value="Female">
+    <div>Location
+        <select name="location">
+            <option value="Japan">Japan</option>
+            <option value="Italy">Italy</option>
+            <option value="France">France</option>
+        </select>
+    </div>
+        <div>Dietary Restrictions?</div>
+        Gluten-Free <input type="checkbox" value="Gluten-Free" name="diet">
+        Kosher <input type="checkbox" value="Kosher" name="diet">
+        Low-Sodium <input type="checkbox" value="Low-Sodium" name="diet">
+        <button>Submit</button>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>
