@@ -1,0 +1,16 @@
+header {
+    font-size: 75pt;
+    text-align: center;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+footer {
+    font-size: 10pt;
+    text-align: center;
+    background-color: red;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+}
