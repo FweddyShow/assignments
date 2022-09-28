@@ -1,0 +1,85 @@
+.box{
+    display: inline-block;
+    /* margin: 5px, 5px, 10px, 10px; */
+}
+
+#square1 {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+
+    background-color: gray;
+    transition: background-color 500ms ease-in 20ms, width 50ms ease-in;
+}
+
+#square1:hover {
+    background-color: black;
+    width: 500px;
+}
+
+#square2 {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin: 20px;
+    transition: height 1s ease-in-out, opacity 500ms linear 200ms;
+}
+
+#square2:hover {
+    height: 300px;
+    opacity: 5%;
+}
+
+#square3 {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    margin: 20px;
+    transition: box-shadow 30ms linear, margin 5ms linear;
+}
+
+#square3:hover {
+    margin: 50px;
+    box-shadow: 5px 10px #888888;
+}
+
+#square4 {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin: 20px;
+    transition: all 500ms linear 20ms;
+}
+
+#square4:hover {
+    border-style: dotted;
+    opacity: 50%;
+}
+
+#square5 {
+    width: 250px;
+    height: 250px;
+    background-color: chartreuse;
+    margin: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+#square5:hover {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+#square6 {
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    margin: 20px;
+    transition: box-shadow 25ms linear, border-style 5ms linear, border-radius 50ms ease-in 50ms;
+}
+
+#square6:hover {
+    box-shadow: 50px 50px green;
+    border-radius: 50px;
+    border-style: solid;
+}
