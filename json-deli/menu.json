@@ -1,0 +1,61 @@
+{
+    "appetizers" : [
+        {
+            "name": "potato chips", 
+            "ingredients": ["potato", "oil", "salt"],
+            "description": "A tasty classic with our house made chips" 
+        },
+        {"name": "soup", 
+          "ingredients": ["broccoli", "cheddar", "water"],
+          "description": "I dont like soup personally"
+        }
+    ],
+    "cold sandwiches" : [
+        {
+            "name": "Turkey Cold Cut", 
+            "ingredients": ["turkey", "white bread", "provolone", "lettuce", "tomato"],
+            "description": "A classic turkey cold cut with roast turkey"  
+        },
+        {
+            "name": "Ham Cold Cut", 
+            "ingredients": ["ham", "white bread", "provolone", "lettuce", "tomato"],
+            "description": "A classic ham cold cut with honey ham"  
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name": "Cheesesteak", 
+            "ingredients": ["sliced beef", "green pepper", "provolone"],
+            "description": "Ey I am from Philadelphia" 
+        },
+        {
+            "name": "Chicken Sandwich", 
+            "ingredients": ["chicken", "bun", "provolone", "lettuce", "tomato"],
+            "description": "A classic chicken breaded hot sandwich"  
+        }
+    ],
+    "desserts" : [
+        {
+            "name": "Jello", 
+            "ingredients": ["gelatin", "sugar", "water"],
+            "description": "Nursing home type beat" 
+        },
+        {
+            "name": "Tiramisu", 
+            "ingredients": ["cream", "flour", "chocolate"],
+            "description": "Too fancy for me"  
+        }
+    ],
+    "drinks" : [
+        {
+            "name": "Sprite", 
+            "ingredients": ["corn syrup", "water", "CO2"],
+            "description": "This Sprite is spicy because we stole it from McDonalds" 
+        },
+        {
+            "name": "Coke", 
+            "ingredients": ["corn syrup", "water", "CO2"],
+            "description": "Polar bears died for this"  
+        }
+    ]
+}
