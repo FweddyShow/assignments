@@ -56,8 +56,8 @@ todoForm.addEventListener("submit", (event) => {
     document.body.appendChild(deleteBut)
     document.body.appendChild(checkBox)
 
-        img.height = 100
-        img.width = 100
+    img.height = 100
+    img.width = 100
 
 
     if(data.completed){
@@ -67,12 +67,12 @@ todoForm.addEventListener("submit", (event) => {
         checkBox.checked = true
     }
     //put
-const completedTrue = {
+    const completedTrue = {
     completed: "true"
-}
-const completedFalse = {
+    }
+    const completedFalse = {
     completed: "false"
-}
+    }
        checkBox.addEventListener('change', (event) =>{
         event.preventDefault()
         if (event.target.checked){
@@ -87,7 +87,7 @@ const completedFalse = {
             axios.put("https://api.vschool.io/freddy/todo/"+data._id, completedFalse)
             .catch(error => console.log(error))
 
-            title.style.textDecoration = null
+            title.style.textDecoration = "none"
             des.style.textDecoration = "none"
             price.style.textDecoration = "none"
             checkBox.checked = false
@@ -98,6 +98,18 @@ const completedFalse = {
     deleteBut.addEventListener('click', (event) =>{
         event.preventDefault()
         axios.delete("https://api.vschool.io/freddy/todo/"+data._id)
+        .then(res => {
+            console.log(res)
+                clearList()
+                get()
+        }).catch(error => console.log(error))
     })
-}} 
+}}   
 
+
+function clearList(){
+    const el = document.getElementById("todoList")
+    while(el.firstChild){
+        el.removeChild(el.firstChild)
+    }
+}
