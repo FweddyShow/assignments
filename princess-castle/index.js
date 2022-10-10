@@ -9,7 +9,7 @@ setName = namePicked => {
     if(namePicked === "Mario"){
        this.name = "Mario" 
     } else if (namePicked === "Luigi") {
-        this.name = 1
+        this.name = "Luigi"
     }}
 gotHit = () => {
     if(this.status === "Small") {
