@@ -25,3 +25,16 @@ form.addEventListener("submit", function(e) {
 
 
 
+const button2 = document.getElementById("button")
+const header = document.getElementById("header")
+header.style.color = "black"
+function colorToggle(){
+    if (header.style.color === "black") {
+        header.style.color = "blue"
+      } else if (header.style.color === "blue"){
+        
+        header.style.color = "black"
+}}
+
+
+button2.addEventListener("click", colorToggle)

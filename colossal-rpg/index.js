@@ -157,3 +157,5 @@ while(hero.stamina > 0) {
     console.log("You end your day and head back home, nice job! You earned", hero.gradePoint, "Grade Points and are assigned", assignments.name, "homework. See you tomorrow!")
 }
 }
+
+

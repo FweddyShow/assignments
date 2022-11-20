@@ -437,7 +437,7 @@ html,body
 }
 
 .designs {
-    position: relative;
+    /* position: relative; */
     margin-left: 65px;
 }
 .designs .back {
